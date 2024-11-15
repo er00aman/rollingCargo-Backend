@@ -1,0 +1,170 @@
+.main-wrapper {
+    margin: 30px 15px;
+}
+
+.top-heading h2{
+    margin-bottom: 0;
+}
+
+
+.form-control:focus,
+.form-select:focus  {
+    border-color:var(--bg-primary);
+    box-shadow: none;
+}
+
+.search{
+    padding: 5px 4px 5px 40px;
+    /* background: white url("/assets/images/search.png") no-repeat 13px; */
+    background: white url("../../assets/images/search.png") no-repeat 13px;
+
+}
+
+
+.action-head{
+    min-width: 60px;
+    max-width: 60px;
+    font-size: 11px;
+}
+
+mat-icon , .bi {
+    cursor: pointer;
+}
+  
+.detail-table table {
+    margin-bottom: 0px;
+}
+
+.detail-table table tr th,
+.detail-table table tr td{
+    width: 50%;
+    font-size: 14px;
+}
+
+.detail-table table tr th{
+    font-weight: 600!important;
+}
+
+
+
+/* delete modal */
+#delete .btn-close{
+  position: absolute;
+  right: -10px;
+  background: var(--primary-color)!important;
+  border-radius: 50%;
+  color: #fff;
+  top: -11px;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  z-index: 99;
+}
+
+
+#delete h5{
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+
+  #delete mat-icon {
+    width: 60px;
+    font-size: 63px;
+    height: 60px;
+}
+
+  
+  
+  
+    
+
+/* 
+.heading-row {
+    margin:10px 0px
+}
+
+.heading-row h3{
+    font: normal normal bold 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: var(--dark-text);
+    opacity: 1;
+    margin-bottom:0px;
+}
+
+.custom-search .form-control{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 2px #9A76FF4D;
+    border-radius: 4px;
+    opacity: 1;
+    border: none;
+    font-size:14px;
+    letter-spacing: 0px;
+    color: #9B9E9F;
+    opacity: 1;
+}
+
+.custom-select .form-select{
+    box-shadow: 0px 3px 2px #9A76FF4D;
+    border-radius: 4px;
+    opacity: 1;
+    border: none;
+    padding: 5px 12px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #9B9E9F;
+    opacity: 1;
+}
+
+
+.custom-search  input.search {
+    width: 100%;
+    display: block;
+    padding: 5px 4px 5px 40px;
+    background: transparent url("/assets/images/search.png") no-repeat 13px;
+}
+
+
+.custom-date    .mat-form-field-wrapper {
+        padding-bottom:0em;
+}
+
+.custom-date .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon-button, .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button {
+   
+    width: 2em!important;
+    height: 2em!important;
+}
+
+.custom-date .mat-form-field-type-mat-date-range-input .mat-form-field-infix {
+    font-size: 14px;
+}
+
+
+.custom-date  .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 8px 0 6px 0;
+}
+
+.custom-date .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: rgb(0 0 0 / 0%);
+}
+
+.custom-date  .mat-form-field-appearance-outline .mat-form-field-flex{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 2px #9A76FF4D;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+ 
+.custom-date .mat-date-range-input-inner {
+    color: #9B9E9F;
+}
+
+.custom-date .mat-icon-button{
+    color: #6630ff;
+}
+
+
+.custom-date .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: transparent!important;} */
